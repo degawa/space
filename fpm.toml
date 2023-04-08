@@ -1,0 +1,21 @@
+name = "space"
+version = "0.1.0"
+license = "license"
+author = "Tomohiro Degawa"
+maintainer = "degawa.tomohiro@gmail.com"
+copyright = "Copyright 2023, Tomohiro Degawa"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+
+[preprocess]
+[preprocess.cpp]
+
+[dependencies]
+axis = {git = "https://github.com/degawa/axis.git"}
+
+[dev-dependencies]
+fassert = {git = "https://github.com/degawa/fassert.git"}
